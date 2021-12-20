@@ -3,8 +3,9 @@ this is a simple and customizable react js resume template using material UI
 
 <h1>Demo: </h1>
 
-
 [Demo link](https://simple-resume-template-react.vercel.app/)
+
+--------
 
 <h1>usage :</h1>
 
