@@ -1,0 +1,30 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #222b45 !important;
+}
+.text {
+}
+
+.text-red {
+  color: #fc394d !important;
+}
+.img-grid {
+  flex: 0 0 auto;
+
+}
+.f-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 420px) {
+  .img-grid {
+    width: 65%;
+
+  }
+}

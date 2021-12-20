@@ -1,0 +1,26 @@
+{
+    "0": {
+        "skillName": "test SN 1",
+        "AbilityRate": "70"
+    },
+    "1" : {
+        "skillName": "test SN 2",
+        "AbilityRate": "40"
+    },
+    "2":{
+        "skillName": "test SN 3",
+        "AbilityRate": "50"
+    },
+    "3" : {
+        "skillName": "test SN 4",
+        "AbilityRate": "60"
+    },
+    "4" : {
+        "skillName": "test SN 5",
+        "AbilityRate": "50"
+    },
+    "5" :{
+        "skillName": "test SN 6",
+        "AbilityRate": "60"
+    }
+}
