@@ -30,7 +30,7 @@ function Profile() {
     const SVGwidth = window.innerWidth <500 ? "130%" : "100%";
     return (
 
-        <Grid className={styles.profileGrid} container spacing={2}>
+        <Grid className={styles.profileGrid} container >
 
             <Grid className={styles.profile} item xs={10} sm={10} md={4} ref={profileBox}>
                 <div className={styles.profilePicture}>
