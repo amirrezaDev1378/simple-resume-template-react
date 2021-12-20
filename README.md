@@ -4,9 +4,11 @@ this is a simple and customizable react js resume template using material UI
 <h1>usage :</h1>
 
 1.Download and extract the main branch 
-2.open a terminal and install the packages using : `npm install`
+
+1.Download and extract the main branch
 
 ___
+
 
 <h1>customize : </h1>
 

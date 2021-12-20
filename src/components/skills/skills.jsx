@@ -5,6 +5,7 @@ import useStyles, {RandomGradiant} from "./skills.style";
 function Skills(data) {
 
     const styles = useStyles();
+    const AbilityPercentage = data.AbilityRate + '% ';
     return (
         <Grid className={'flex-column ' + styles.SkillsContainer} container spacing={2}>
             <h3 style={{padding :'15px 0'}}>
@@ -14,7 +15,7 @@ function Skills(data) {
             <div className={styles.percentage}>
                 <div
                     className={styles.randomGradiant}
-                    style={{width: (data.AbilityRate + ' % '),backgroundImage : data.gradiant}}
+                    style={{width:AbilityPercentage , backgroundImage : data.gradiant}}
                 >
 
                 </div>

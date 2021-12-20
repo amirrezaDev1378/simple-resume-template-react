@@ -66,6 +66,7 @@ const ContainerPadding = window.innerWidth < 420 ?
         "40px 15px" :
         "40px 80px";
 const AbilitiesMargin = window.innerWidth < 900 ? "70px" : "0px";
+const AbilitiesMarginLeft = window.innerWidth > 900 ? "50px" : "0px";
 
 function Layout() {
     const styles = useStyles();
@@ -82,11 +83,11 @@ function Layout() {
                     {ReturnJobs()}
 
                 </Grid>
-                <Grid style={{marginTop: AbilitiesMargin}} item xs={10} sm={10} md={5}>
+                <Grid style={{marginTop: AbilitiesMargin , marginLeft:AbilitiesMarginLeft}} item xs={10} sm={10} md={5}>
                     {ReturnAbilities()}
                 </Grid>
                 <Grid style={{marginTop: AbilitiesMargin}} item xs={10} sm={10} md={5}>
-                    <h3 style={{textAlign: 'center'}}>
+                    <h3 style={{textAlign: 'center' , marginTop:40}}>
                         Language Skills
                     </h3>
                     <br/>
