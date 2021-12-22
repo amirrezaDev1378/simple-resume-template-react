@@ -11,7 +11,9 @@ this is a simple and customizable react js resume template using material UI
 
 1.Download and extract the main branch 
 
-1.Download and extract the main branch
+2. run command `npm install`
+
+3. run command `npm start`
 
 ___
 
